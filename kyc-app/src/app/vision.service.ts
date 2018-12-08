@@ -12,7 +12,7 @@ export class VisionService {
   constructor(private http: HttpClient) {
     this.headers = new HttpHeaders().set(
       'Ocp-Apim-Subscription-Key',
-      '979d474e33424a6e83f410e2f72c3e81'
+      ''
     );
   }
 
