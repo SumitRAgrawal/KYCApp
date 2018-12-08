@@ -7,6 +7,9 @@ import { CalendarModule } from 'primeng/calendar';
 import { InputTextModule } from 'primeng/inputtext';
 import {InputTextareaModule} from 'primeng/inputtextarea';
 import {FieldsetModule} from 'primeng/fieldset';
+import { FileUploadModule} from 'primeng/fileupload';
+import {TooltipModule} from 'primeng/tooltip';
+import {DialogModule} from 'primeng/dialog';
 
 @NgModule({
   declarations: [],
@@ -17,7 +20,10 @@ import {FieldsetModule} from 'primeng/fieldset';
     CalendarModule,
     InputTextModule,
     InputTextareaModule,
-    FieldsetModule
+    FieldsetModule,
+    FileUploadModule,
+    TooltipModule,
+    DialogModule
   ],
   exports: [
     PanelModule,
@@ -25,7 +31,10 @@ import {FieldsetModule} from 'primeng/fieldset';
     CalendarModule,
     InputTextModule,
     InputTextareaModule,
-    FieldsetModule
+    FieldsetModule,
+    FileUploadModule,
+    TooltipModule,
+    DialogModule
 
   ]
 })
